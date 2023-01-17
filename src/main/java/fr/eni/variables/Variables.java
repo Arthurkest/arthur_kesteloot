@@ -64,7 +64,15 @@ public class Variables {
         System.out.println(Arrays.toString(arrStrA));
         arrDblA[0] = 0;
         System.out.println(Arrays.toString(arrDblA));
-        // --------------------------------------------------
-        
+        // -------------------------------------------------- 
+        repet(intA, strA);
+        }
+
+ public static void repet(int intA, String strA) 
+ {
+    for (int i = 0; i <= intA; i = i +1)
+    {
+        System.out.println(strA);
     }
+}
 }
